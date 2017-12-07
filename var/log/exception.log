@@ -1,0 +1,1034 @@
+2013-11-30T01:28:34+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Catalog/controllers/CategoryController.php(148): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_CategoryController->viewAction()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('view')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#13 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#14 {main}
+2013-11-30T01:42:02+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Catalog/controllers/CategoryController.php(148): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_CategoryController->viewAction()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('view')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#13 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#14 {main}
+2013-11-30T01:51:14+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Catalog/controllers/CategoryController.php(148): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_CategoryController->viewAction()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('view')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#13 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#14 {main}
+2013-11-30T01:55:35+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Catalog/controllers/CategoryController.php(148): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_CategoryController->viewAction()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('view')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#13 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#14 {main}
+2013-11-30T01:57:27+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Core_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('core/footer', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('core/footer', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('core/footer', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Catalog/controllers/CategoryController.php(148): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_CategoryController->viewAction()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('view')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#13 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#14 {main}
+2013-12-01T03:06:55+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Catalog/controllers/CategoryController.php(148): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_CategoryController->viewAction()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('view')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#13 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#14 {main}
+2013-12-02T03:25:08+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Catalog/controllers/CategoryController.php(148): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_CategoryController->viewAction()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('view')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#13 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#14 {main}
+2013-12-02T03:54:05+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Catalog/Helper/Product/View.php(73): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Catalog/Helper/Product/View.php(144): Mage_Catalog_Helper_Product_View->initProductLayout(Object(Mage_Catalog_Model_Product), Object(Mage_Catalog_ProductController))
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(1, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('view')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-02T03:54:40+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Checkout/controllers/CartController.php(160): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_CartController->indexAction()
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#15 {main}
+2013-12-02T03:54:48+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Checkout/controllers/OnepageController.php(212): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_OnepageController->indexAction()
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#15 {main}
+2013-12-02T03:55:54+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Checkout/controllers/OnepageController.php(292): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_OnepageController->successAction()
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('success')
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#15 {main}
+2013-12-02T03:56:13+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Customer/controllers/AccountController.php(128): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Customer_AccountController->loginAction()
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('login')
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#15 {main}
+2013-12-02T15:23:19+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Customer/controllers/AccountController.php(128): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Customer_AccountController->loginAction()
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('login')
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#15 {main}
+2013-12-03T15:48:14+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-03T15:48:33+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Catalog/controllers/CategoryController.php(148): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_CategoryController->viewAction()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('view')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#13 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#14 {main}
+2013-12-03T15:55:32+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Checkout/controllers/CartController.php(160): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_CartController->indexAction()
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#15 {main}
+2013-12-03T15:55:36+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Checkout/controllers/OnepageController.php(212): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_OnepageController->indexAction()
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#15 {main}
+2013-12-03T15:56:13+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Checkout/controllers/OnepageController.php(212): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_OnepageController->indexAction()
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#15 {main}
+2013-12-03T15:57:37+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Checkout/controllers/OnepageController.php(212): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_OnepageController->indexAction()
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#15 {main}
+2013-12-03T15:59:26+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Checkout/controllers/OnepageController.php(292): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_OnepageController->successAction()
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('success')
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#15 {main}
+2013-12-10T02:37:47+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T02:42:59+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T02:45:30+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T02:45:46+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T02:51:07+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T02:51:29+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T02:55:48+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T02:55:56+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T02:56:30+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T02:57:02+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T02:58:32+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T02:59:28+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:02:47+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:03:38+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:07:33+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:07:55+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:12:54+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:13:06+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:14:10+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:14:55+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:15:48+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:22:31+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:25:26+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:27:24+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:31:35+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:56:29+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:56:42+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:56:51+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:57:18+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:58:38+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:59:04+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T03:59:17+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}
+2013-12-10T04:01:20+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magear_Layout_Block_Footer' in /Users/ashenvale/Sites/magento/test02/app/Mage.php:594
+Stack trace:
+#0 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magear_layout/f...', Array)
+#2 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magear_layout/f...', 'magear_layout_f...')
+#3 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magear_layout/f...', 'magear_layout_f...')
+#4 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/Helper/Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Cms/controllers/IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#10 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Cms_IndexController->indexAction()
+#11 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /Users/ashenvale/Sites/magento/test02/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /Users/ashenvale/Sites/magento/test02/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/ashenvale/Sites/magento/test02/index.php(87): Mage::run('', 'store')
+#16 {main}

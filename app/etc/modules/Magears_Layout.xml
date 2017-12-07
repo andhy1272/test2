@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Magears_Layout>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Magears_Layout>
+    </modules>
+</config>

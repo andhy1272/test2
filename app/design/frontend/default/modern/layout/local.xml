@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+
+
+	<default>
+	
+	    <!-- Mage_Customer -->
+	    <!--
+	    <reference name="top.links">
+	        <action method="addLink" translate="label title" module="customer"><label>My Account</label><url helper="customer/getAccountUrl"/><title>My Account</title><prepare/><urlParams/><position>10</position></action>
+	        
+	        <block type="checkout/links" name="checkout_cart_link">
+	            <action method="addCartLink"></action>
+	            <action method="addCheckoutLink"></action>
+	        </block>
+	        
+	        <block type="wishlist/links" name="wishlist_link" />
+	        <action method="addLinkBlock"><blockName>wishlist_link</blockName></action>
+	        
+	    </reference>
+	    -->
+
+	
+	    
+	    <reference name="top.links">
+	    	<action method="removeLinkByUrl">
+	    		<url helper="customer/getAccountUrl" />
+	        </action>
+	        
+	        <action method="removeLinkByUrl">
+	        	<url helper="checkout/url/getCheckoutUrl"/>
+	        </action>
+	        
+	        <action method="removeLinkByUrl">
+	          	<url helper="checkout/url/getCartUrl" />
+	        </action> 
+	        
+	        <remove name="wishlist_link"/>
+	        
+	        <remove name="checkout_cart_link"/>
+	        
+	         	        
+	    </reference>
+	    
+	    
+	</default>
+	
+	
+	
+	<!-- Mage_Customer_LogOut -->
+	<!--
+	<customer_logged_in>
+	    <reference name="top.links">
+	        <action method="addLink" translate="label title" module="customer"><label>Log Out</label><url helper="customer/getLogoutUrl"/><title>Log Out</title><prepare/><urlParams/><position>100</position></action>
+	    </reference>
+	</customer_logged_in>
+	-->
+	
+	<!-- Mage_Customer_LogIn -->
+	<!--
+	<customer_logged_out>
+	    <reference name="top.links">
+	        <action method="addLink" translate="label title" module="customer"><label>Log In</label><url helper="customer/getLoginUrl"/><title>Log In</title><prepare/><urlParams/><position>100</position></action>
+	    </reference>
+	</customer_logged_out> 
+	-->
+	
+	
+	
+	
+	
+	
+	<customer_logged_in>
+	    <reference name="top.links">
+	      <action method="removeLinkByUrl"><url helper="customer/getLogoutUrl"/></action>
+	    </reference>    
+	</customer_logged_in>
+	
+	<customer_logged_out>
+	    <reference name="top.links">
+	      <action method="removeLinkByUrl"><url helper="customer/getLoginUrl"/></action>
+	    </reference>    
+	</customer_logged_out>
+
+
+
+
+</layout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Magear_Layout>
+            <version>0.0.1</version>
+        </Magear_Layout>
+    </modules>
+    
+    
+  	<global>
+        <!-- we are adding a new block definition -->
+        <blocks>
+            
+            <!-- a unique short name for our block files -->
+            <magear_layout>
+                
+                <!-- the location of our module's blocks -->
+                <class>Magear_Layout_Block</class>
+
+            </magear_layout>
+
+        </blocks>
+	</global>
+   
+    
+    <!-- we are making changes to the frontend -->
+    <frontend>
+        
+        <!-- we are making changes to the layout -->
+        <layout>
+            
+            <!-- we are adding a new update file -->
+            <updates>
+                
+                <!-- this child node name must be unique throughout Magento -->
+                <magear_layout 
+                		module="Magear_Layout">
+                    
+                    <!-- the name of the layout file we are adding -->
+                    <file>magear_layout.xml</file>
+                    
+                </magear_layout>
+                
+            </updates>
+            
+        </layout>
+        
+    </frontend>
+
+</config>
